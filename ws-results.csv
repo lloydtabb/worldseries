@@ -1,0 +1,221 @@
+year,game_no,winner,loser
+1993,1,Phillies,Blue Jays
+1993,2,Blue Jays,Phillies
+1993,3,Blue Jays,Phillies
+1993,4,Blue Jays,Phillies
+1993,5,Phillies,Blue Jays
+1993,6,Blue Jays,Phillies
+1992,1,Braves,Blue Jays
+1992,2,Blue Jays,Braves
+1992,3,Blue Jays,Braves
+1992,4,Blue Jays,Braves
+1992,5,Braves,Blue Jays
+1992,6,Blue Jays,Braves
+1991,1,Twins,Braves
+1991,2,Twins,Braves
+1991,3,Braves,Twins
+1991,4,Braves,Twins
+1991,5,Braves,Twins
+1991,6,Twins,Braves
+1991,7,Twins,Braves
+1990,1,Reds,Athletics
+1990,2,Reds,Athletics
+1990,3,Reds,Athletics
+1990,4,Reds,Athletics
+1989,1,Athletics,Giants
+1989,2,Athletics,Giants
+1989,3,Athletics,Giants
+1989,4,Athletics,Giants
+1988,1,Dodgers,Athletics
+1988,2,Athletics,Dodgers
+1988,3,Dodgers,Athletics
+1988,4,Dodgers,Athletics
+1988,5,Dodgers,Athletics
+1987,1,Twins,Cardinals
+1987,2,Twins,Cardinals
+1987,3,Cardinals,Twins
+1987,4,Cardinals,Twins
+1987,5,Cardinals,Twins
+1987,6,Twins,Cardinals
+1987,7,Twins,Cardinals
+1986,1,Mets,Red Sox
+1986,2,Red Sox,Mets
+1986,3,Mets,Red Sox
+1986,4,Mets,Red Sox
+1986,5,Red Sox,Mets
+1986,6,Mets,Red Sox
+1986,7,Mets,Red Sox
+1985,1,Cardinals,Royals
+1985,2,Royals,Cardinals
+1985,3,Royals,Cardinals
+1985,4,Cardinals,Royals
+1985,5,Cardinals,Royals
+1985,6,Royals,Cardinals
+1985,7,Royals,Cardinals
+1984,1,Tigers,Padres
+1984,2,Padres,Tigers
+1984,3,Tigers,Padres
+1984,4,Tigers,Padres
+1984,5,Tigers,Padres
+1983,1,Phillies,Orioles
+1983,2,Orioles,Phillies
+1983,3,Orioles,Phillies
+1983,4,Orioles,Phillies
+1983,5,Orioles,Phillies
+1982,1,Brewers,Cardinals
+1982,2,Cardinals,Brewers
+1982,3,Brewers,Cardinals
+1982,4,Brewers,Cardinals
+1982,5,Cardinals,Brewers
+1982,6,Brewers,Cardinals
+1982,7,Cardinals,Brewers
+1981,1,Yankees,Dodgers
+1981,2,Dodgers,Yankees
+1981,3,Dodgers,Yankees
+1981,4,Dodgers,Yankees
+1981,5,Dodgers,Yankees
+1981,6,Dodgers,Yankees
+1980,1,Phillies,Royals
+1980,2,Royals,Phillies
+1980,3,Phillies,Royals
+1980,4,Phillies,Royals
+1980,5,Royals,Phillies
+1980,6,Phillies,Royals
+1979,1,Pirates,Orioles
+1979,2,Orioles,Pirates
+1979,3,Orioles,Pirates
+1979,4,Pirates,Orioles
+1979,5,Orioles,Pirates
+1979,6,Pirates,Orioles
+1979,7,Pirates,Orioles
+1978,1,Dodgers,Yankees
+1978,2,Yankees,Dodgers
+1978,3,Yankees,Dodgers
+1978,4,Yankees,Dodgers
+1978,5,Yankees,Dodgers
+1978,6,Yankees,Dodgers
+1977,1,Dodgers,Yankees
+1977,2,Yankees,Dodgers
+1977,3,Yankees,Dodgers
+1977,4,Yankees,Dodgers
+1977,5,Dodgers,Yankees
+1977,6,Yankees,Dodgers
+1976,1,Reds,Yankees
+1976,2,Reds,Yankees
+1976,3,Reds,Yankees
+1976,4,Reds,Yankees
+2004,1,Red Sox,Cardinals
+2004,2,Red Sox,Cardinals
+2004,3,Red Sox,Cardinals
+2004,4,Red Sox,Cardinals
+2003,1,Marlins,Yankees
+2003,2,Yankees,Marlins
+2003,3,Marlins,Yankees
+2003,4,Marlins,Yankees
+2003,5,Marlins,Yankees
+2003,6,Marlins,Yankees
+2002,1,Giants,Angels
+2002,2,Angels,Giants
+2002,3,Angels,Giants
+2002,4,Giants,Angels
+2002,5,Giants,Angels
+2002,6,Angels,Giants
+2002,7,Angels,Giants
+2001,1,Diamondbacks,Yankees
+2001,2,Diamondbacks,Yankees
+2001,3,Yankees,Diamondbacks
+2001,4,Yankees,Diamondbacks
+2001,5,Yankees,Diamondbacks
+2001,6,Diamondbacks,Yankees
+2001,7,Diamondbacks,Yankees
+2000,1,Yankees,Mets
+2000,2,Yankees,Mets
+2000,3,Mets,Yankees
+2000,4,Yankees,Mets
+2000,5,Yankees,Mets
+1999,1,Yankees,Braves
+1999,2,Yankees,Braves
+1999,3,Yankees,Braves
+1999,4,Yankees,Braves
+1998,1,Yankees,Padres
+1998,2,Yankees,Padres
+1998,3,Yankees,Padres
+1998,4,Yankees,Padres
+1997,1,Marlins,Indians
+1997,2,Indians,Marlins
+1997,3,Marlins,Indians
+1997,4,Indians,Marlins
+1997,5,Indians,Marlins
+1997,6,Marlins,Indians
+1997,7,Marlins,Indians
+1996,1,Braves,Yankees
+1996,2,Braves,Yankees
+1996,3,Yankees,Braves
+1996,4,Yankees,Braves
+1996,5,Yankees,Braves
+1996,6,Yankees,Braves
+1995,1,Braves,Indians
+1995,2,Braves,Indians
+1995,3,Indians,Braves
+1995,4,Braves,Indians
+1995,5,Indians,Braves
+1995,6,Braves,Indians
+2024,1,Yankees,Dodgers
+2024,2,Dodgers,Yankees
+2024,3,Dodgers,Yankees
+2024,4,Dodgers,Yankees
+2024,5,Dodgers,Yankees
+2023,1,Diamondbacks,Rangers
+2023,2,Rangers,Diamondbacks
+2023,3,Rangers,Diamondbacks
+2023,4,Rangers,Diamondbacks
+2023,5,Rangers,Diamondbacks
+2022,1,Phillies,Astros
+2022,2,Astros,Phillies
+2022,3,Phillies,Astros
+2022,4,Astros,Phillies
+2022,5,Astros,Phillies
+2022,6,Astros,Phillies
+2021,1,Astros,Braves
+2021,2,Braves,Astros
+2021,3,Braves,Astros
+2021,4,Braves,Astros
+2021,5,Astros,Braves
+2021,6,Braves,Astros
+2020,1,Dodgers,Rays
+2020,2,Rays,Dodgers
+2020,3,Dodgers,Rays
+2020,4,Dodgers,Rays
+2020,5,Rays,Dodgers
+2020,6,Dodgers,Rays
+2019,1,Nationals,Astros
+2019,2,Nationals,Astros
+2019,3,Astros,Nationals
+2019,4,Astros,Nationals
+2019,5,Astros,Nationals
+2019,6,Nationals,Astros
+2019,7,Nationals,Astros
+2018,1,Red Sox,Dodgers
+2018,2,Red Sox,Dodgers
+2018,3,Dodgers,Red Sox
+2018,4,Red Sox,Dodgers
+2018,5,Red Sox,Dodgers
+2017,1,Astros,Dodgers
+2017,2,Dodgers,Astros
+2017,3,Astros,Dodgers
+2017,4,Dodgers,Astros
+2017,5,Astros,Dodgers
+2017,6,Dodgers,Astros
+2017,7,Astros,Dodgers
+2016,1,Indians,Cubs
+2016,2,Cubs,Indians
+2016,3,Indians,Cubs
+2016,4,Cubs,Indians
+2016,5,Cubs,Indians
+2016,6,Cubs,Indians
+2016,7,Cubs,Indians
+2015,1,Royals,Mets
+2015,2,Royals,Mets
+2015,3,Mets,Royals
+2015,4,Royals,Mets
+2015,5,Royals,Mets
