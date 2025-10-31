@@ -1,0 +1,35 @@
+source: ws_games is duckdb.table('./ws-results.csv')
+query: ws_list is ws_games -> {
+    select:
+        # number="0"
+        `year`
+        team1 is winner,
+        team2 is loser
+    where: game_no = 1
+    order_by: `year` asc
+}
+
+query: ws_winner is ws_list extend {
+    join_many: games is ws_games on `year` = games.`year`
+    measure:
+        team1_wins is games.count() { where: games.winner = team1 }
+        team2_wins is games.count() { where: games.winner = team2 }
+} -> {
+    # number=0
+    group_by: `year`, team1, team2
+    aggregate: winner is
+        pick team1 when team1_wins > team2_wins else team2
+} -> {
+    select: `year`, series_winner is winner
+}
+
+run: ws_winner extend {
+    join_many: games is ws_games on `year` = games.`year`
+    view: predicts is { select: goes_on_to_win is games.winner = series_winner }
+} -> {
+    group_by: `year`
+    nest:
+        game1_predicts is predicts + { where: games.game_no = 1 }
+        game2_predicts is predicts + { where: games.game_no = 2 }
+        game3_predicts is predicts + { where: games.game_no = 3 }
+}
