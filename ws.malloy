@@ -58,3 +58,13 @@ query: series_winner is series_winner_stage1 -> {
   select: `year`, winner
   where: rn = 1
 }
+
+// what percentage of game 1 winners go on to win the series?
+run: game1_winner -> {
+  extend: {
+    join_one: series_winner on `year` = series_winner.`year`
+  }
+  aggregate:
+    # percent
+    percent_win is count() {where: winner = series_winner.winner} / count()
+}
