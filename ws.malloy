@@ -9,6 +9,7 @@ query: ws_list is ws_games -> {
     order_by: `year` asc
 }
 
+
 query: ws_winner is ws_list extend {
     join_many: games is ws_games on `year` = games.`year`
     measure:
@@ -32,4 +33,28 @@ run: ws_winner extend {
         game1_predicts is predicts + { where: games.game_no = 1 }
         game2_predicts is predicts + { where: games.game_no = 2 }
         game3_predicts is predicts + { where: games.game_no = 3 }
+}
+
+query: game1_winner is ws_games -> {
+  select:
+    # number="0"
+    `year`
+    winner,
+}
+
+// the data is suspect.  1981 shows Dodgers winning 5 games
+query: series_winner_stage1 is ws_games -> {
+  group_by:
+    # number="0"
+    `year`
+    winner
+  aggregate:
+    game_count is count()
+  order_by: `year`, game_count desc
+  calculate: rn is row_number() {order_by: game_count desc partition_by: `year`}
+}
+
+query: series_winner is series_winner_stage1 -> {
+  select: `year`, winner
+  where: rn = 1
 }
